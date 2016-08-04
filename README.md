@@ -9,12 +9,15 @@ go get github.com/twinbird/xl
 
 ## Usage
 
+```
   xl -in [filepath]  
   or  
   xl -out [filepath]  
+```
 
 #### Option
 
+```
   -S string  
         operation sheet name  
   -b string  
@@ -25,4 +28,8 @@ go get github.com/twinbird/xl
         output excel file path  
   -s string  
         text column separater character (default " ")  
+```
 
+## License
+
+MIT
