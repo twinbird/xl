@@ -9,22 +9,20 @@ go get github.com/twinbird/xl
 
 ## Usage
 
-  xl: Row oriented Excel operation tool
+  xl -in [filepath]  
+  or  
+  xl -out [filepath]  
 
-  Usage:
-      xl -in [filepath]
-      or
-      xl -out [filepath]
+#### Option
 
-  Option:
-  -S string
-        operation sheet name
-  -b string
-        base cell position
-  -in string
-        input excel file path
-  -out string
-        output excel file path
-  -s string
-        text column separater character (default " ")
+  -S string  
+        operation sheet name  
+  -b string  
+        base cell position  
+  -in string  
+        input excel file path  
+  -out string  
+        output excel file path  
+  -s string  
+        text column separater character (default " ")  
 
