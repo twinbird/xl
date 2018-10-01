@@ -120,7 +120,7 @@ func excelToStdout(inFilePath string, sep string, sheet string, cellPos *CellPos
 			if cidx < cellPos.Column {
 				continue
 			}
-			s, err := cell.String()
+			s := cell.String()
 			if err != nil {
 				return err
 			}
